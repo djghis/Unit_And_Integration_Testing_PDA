@@ -19,7 +19,7 @@ Calculator.prototype.multiply = function(number){
 
 Calculator.prototype.divide = function(number){
   if (number === 0) {
-    this.runningTotal = this.previousTotal;
+    this.runningTotal = 'Undefined';
   } else {
     this.runningTotal = parseFloat(this.previousTotal) / parseFloat(number);
   }
